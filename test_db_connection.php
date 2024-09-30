@@ -1,7 +1,7 @@
 <?php
-    $servername = "192.168.1.140:6033";
-    $username = "root";
-    $password = "root";
+    $servername = "mysql-nebulatelegraph.mysql.database.azure.com";
+    $username = "db_admin";
+    $password = ".Etml-123";
     $dbname = "db_telegraph";
 
     try {

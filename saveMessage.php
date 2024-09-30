@@ -9,9 +9,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $charAscii = $_POST['charAscii'];
         $ipSender = $_SERVER['REMOTE_ADDR'];
 
-        $servername = "192.168.1.140:6033";
-        $username = "root";
-        $password = "root";
+        $servername = "mysql-nebulatelegraph.mysql.database.azure.com";
+        $username = "db_admin";
+        $password = ".Etml-123";
         $dbname = "db_telegraph";
         $STX = 2;
         $EOT = 4;
