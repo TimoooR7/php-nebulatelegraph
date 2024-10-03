@@ -1,8 +1,12 @@
 <?php
-header("Access-Control-Allow-Origin: *")
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
+
 // Vérifier que la requête est une requête GET
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    header("Access-Control-Allow-Origin: *", "Content-Type: application/json");
+    
+    header("Content-Type: application/json");
 
     $servername = "mysql-nebulatelegraph.mysql.database.azure.com";
     $username = "db_admin";
