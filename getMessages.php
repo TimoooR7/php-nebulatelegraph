@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *")
 // Vérifier que la requête est une requête GET
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     header("Access-Control-Allow-Origin: *", "Content-Type: application/json");
